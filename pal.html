@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Palindrom Check</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- JQuery Scripts -->
+        
+        <link href="pal.css" rel="stylesheet"/>
+
+        
+    </head>
+    <body><br>
+
+        <div class="text-center">
+            <h3>Andela Code Challenge</h3>
+            <h1>Palindrome Checker</h1>
+        </div><br><br>
+
+        <div id="alert-div" class="text-center"> </div>
+
+        <div class="row">
+
+            <div class="col-sm-6 col-xs-12">
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <p class="text-center">Enter a Word/Phrase in the box below</p>
+                    </div>
+                    <div class="panel-body">
+                        <textarea id="text-body" class="form-control" placeholder="Enter text"></textarea>
+                    </div>
+                    <div class="panel-footer text-center">
+                        <button onclick="checkPalindrome()" class="btn btn-primary">Check Palindrome</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-xs-12">
+                <div class="panel panel-default">
+                    <div class="panel-heading text-center">Last Five Enteries</div>
+                    <div class="panel-body">
+                        <div class="panel-group" id="display"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <footer class="text-center" ><a href="https://twitter.com/flowwcity" target="_blank">Emeka Chinedu</a></footer>
+        
+        
+        
+        <script src="pal.js"></script>        
+    </body>
+</html>

@@ -1,0 +1,13 @@
+body {
+	width: 80%;
+	margin: auto;
+}
+
+#text-body {
+	height: 200px;
+}
+
+#display {
+	height: 245px;
+	overflow-y: scroll;
+}
